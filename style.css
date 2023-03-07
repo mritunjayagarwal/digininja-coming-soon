@@ -1,0 +1,91 @@
+* {
+    font-family: 'montserrat', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page {
+    background: #f1f1f1;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    flex: 1;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .countdown-col {
+    background: url(./holi.jpg) no-repeat center;
+    background-size: cover;
+  }
+  
+  .title{
+      font-size: 90px;
+      margin-bottom: 0;
+  }
+
+  .tag-line{
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+
+  .time {
+    color: #fff;
+    text-transform: uppercase;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .holi-wish{
+      font-size: 20px;
+  }
+  
+  .time span {
+    padding: 0 14px;
+    font-size: 10px;
+  }
+  
+  .time span div {
+    font-size: 40px;
+  }
+  
+  .newslatter {
+    background: transparent;
+    width: 90%;
+  }
+  
+  .newslatter h4 {
+    font-style: italic;
+    font-size: 12px;
+  }
+
+  
+  @media screen and (max-width: 900px) {
+    .col {
+      flex: 100%;
+    }
+
+    .title{
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+  
+    .tag-line{
+      font-size: 40px;
+      margin-bottom: 0;
+    }
+  }
